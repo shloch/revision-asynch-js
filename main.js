@@ -38,7 +38,7 @@ const getTodos2 = (url) => {
 getTodos2('https://jsonplaceholder.typicode.com/todos/1')
 .then(data => {
 	console.log('promise 1 resolved :', data)
-	return  getTodos2('https://jsonplaceholder.typicode.com/todos/2EE')
+	return  getTodos2('https://jsonplaceholder.typicode.com/todos/2')
 })
 .then(data => {
 	console.log('promise 2 resolved :', data)
